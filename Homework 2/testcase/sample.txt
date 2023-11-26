@@ -1,0 +1,46 @@
+NumTechs 2
+Tech TA 3
+LibCell MC1 7 10
+LibCell MC2 14 10
+LibCell MC3 17 12
+Tech TB 3
+LibCell MC1 7 15
+LibCell MC2 12 15
+LibCell MC3 18 18
+
+DieSize 40 30
+DieA TA 80
+DieB TB 90
+
+NumCells 8
+Cell C1 MC1
+Cell C2 MC3
+Cell C3 MC3
+Cell C4 MC2
+Cell C5 MC2
+Cell C6 MC3
+Cell C7 MC2
+Cell C8 MC1
+
+NumNets 6
+Net N1 2
+Cell C1
+Cell C2
+Net N2 3
+Cell C2
+Cell C3
+Cell C7
+Net N3 2
+Cell C2
+Cell C8
+Net N4 3
+Cell C3
+Cell C6
+Cell C7
+Net N5 3
+Cell C4
+Cell C5
+Cell C6
+Net N6 2
+Cell C4
+Cell C5
