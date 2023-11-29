@@ -1,0 +1,14 @@
+ChipSize 8 7
+
+NumSoftModules 2
+SoftModule GPU 25
+SoftModule CPU 15
+
+NumFixedModules 2
+FixedModule PAD1 0 5 2 2
+FixedModule FIXED1 5 0 3 2
+
+NumNets 3
+Net GPU CPU 20
+Net GPU PAD1 10
+Net CPU FIXED1 15
